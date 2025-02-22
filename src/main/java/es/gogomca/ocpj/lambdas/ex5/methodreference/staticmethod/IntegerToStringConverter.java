@@ -6,7 +6,7 @@ public class IntegerToStringConverter {
     Converter lambda = x -> String.valueOf(x);
 
     // Note how we have to use the SAM in both the method reference and the lambda expression.
-    System.out.println(methodRef.round(100)); // "100"
-    System.out.println(lambda.round(100)); // "100"
+    System.out.println(methodRef.convert(100)); // "100"
+    System.out.println(lambda.convert(100)); // "100"
   }
 }
