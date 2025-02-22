@@ -1,4 +1,4 @@
-package es.gogomca.ocpj.lambdas.example2;
+package es.gogomca.ocpj.lambdas.ex2.sam;
 
 @FunctionalInterface
 public interface FunctionalInterface1 {

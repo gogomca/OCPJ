@@ -1,4 +1,4 @@
-package es.gogomca.ocpj.lambdas.example3;
+package es.gogomca.ocpj.lambdas.ex3.samobjectmethods;
 
 @FunctionalInterface
 public interface FunctionaIntefaceDeclaringObjectMethods {
