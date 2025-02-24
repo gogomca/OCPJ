@@ -8,7 +8,7 @@ public class GreaterThanCheckerApp {
 
     // We indicate that SAM implementation is going to execute the isGreatherThan method over a
     // GreaterThan instance (parameter).
-    GreaterThanChecker checker = GreaterThan::isGreatherThanTen;
+    GreaterThanChecker checker = GreaterThan::isGreatherThan;
 
     // The method to be invoked is the SAM one, but the lambda expression is executed over the
     // parameter instead. And the invocation is going to use the anotherNumber parameter.

@@ -7,7 +7,7 @@ public class GreaterThan {
     this.number = number;
   }
 
-  public boolean isGreatherThanTen(Integer anotherNumber) {
+  public boolean isGreatherThan(Integer anotherNumber) {
     return number > anotherNumber;
   }
 }
